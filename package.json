@@ -1,15 +1,41 @@
 {
   "name": "vibeframe",
   "displayName": "Vibeframe",
-  "description": "MCP Integration for VS Code",
+  "description": "Create rich visual interfaces for your MCP servers that integrate seamlessly into VS Code, Cursor, and Windsurf.",
   "version": "0.1.0",
   "publisher": "vibeframe",
+  "author": {
+    "name": "Taggart Bowen-Gaddy",
+    "url": "https://github.com/taggartbg"
+  },
   "engines": {
     "vscode": "^1.60.0"
   },
   "categories": [
     "Other"
   ],
+  "keywords": [
+    "mcp",
+    "ai",
+    "model",
+    "cursor",
+    "windsurf"
+  ],
+  "icon": "images/icon.png",
+  "galleryBanner": {
+    "color": "#C80000",
+    "theme": "dark"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taggartbg/vibeframe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/taggartbg/vibeframe/issues"
+  },
+  "homepage": "https://www.vibeframe.dev",
+  "extensionKind": ["workspace"],
   "activationEvents": [
     "onCommand:vibeframe.openMcpCanvas",
     "onStartupFinished"
