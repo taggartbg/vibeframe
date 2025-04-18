@@ -1,4 +1,4 @@
-# Vibeframe - MCP Integration for VS Code
+# Vibeframe - MCP UI for VS Code
 
 Create rich visual interfaces for your MCP servers that integrate seamlessly into VS Code, Cursor, and Windsurf.
 
