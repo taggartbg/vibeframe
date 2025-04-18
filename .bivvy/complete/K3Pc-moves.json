@@ -1,0 +1,38 @@
+{
+  "Climb": "K3Pc",
+  "moves": [
+    {
+      "status": "complete",
+      "description": "Update Cursor configuration file path and parsing",
+      "details": "Update the Cursor config file path to use `~/.cursor/mcp.json` (global) and `.cursor/mcp.json` (project-specific), and update the parsing logic to handle the new format"
+    },
+    {
+      "status": "complete",
+      "description": "Update Windsurf configuration file path and parsing",
+      "details": "Update the Windsurf config file path to use `~/.codeium/windsurf/mcp_config.json` and update the parsing logic to handle the new format",
+      "rest": true
+    },
+    {
+      "status": "complete",
+      "description": "Update VS Code configuration file path and parsing",
+      "details": "Update the VS Code config to use `.vscode/mcp.json` (workspace-specific) in addition to the existing VS Code settings"
+    },
+    {
+      "status": "complete",
+      "description": "Remove Sourcegraph Cody support",
+      "details": "Remove the Sourcegraph Cody related code as it's no longer needed",
+      "rest": true
+    },
+    {
+      "status": "complete",
+      "description": "Add project/workspace-specific configuration support",
+      "details": "Update the server discovery logic to check for project/workspace-specific configurations first before falling back to global configurations"
+    },
+    {
+      "status": "complete",
+      "description": "Update documentation and README",
+      "details": "Update the documentation and README to reflect the new configuration file paths and parsing logic",
+      "rest": true
+    }
+  ]
+} 

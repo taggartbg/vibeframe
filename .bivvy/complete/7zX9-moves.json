@@ -1,0 +1,55 @@
+{
+  "Climb": "7zX9",
+  "moves": [
+    {
+      "status": "complete",
+      "description": "Set up basic VS Code extension project structure",
+      "details": "Use VS Code Extension Generator (yo code) to scaffold a TypeScript-based extension with necessary configuration"
+    },
+    {
+      "status": "complete",
+      "description": "Configure extension manifest with necessary permissions",
+      "details": "Update package.json with required extension settings, commands, and permissions",
+      "rest": true
+    },
+    {
+      "status": "complete",
+      "description": "Create utilities for parsing various MCP configuration formats",
+      "details": "Implement functions to read and parse config files from Cursor, Windsurf, VS Code, and Sourcegraph Cody"
+    },
+    {
+      "status": "complete",
+      "description": "Implement MCP server discovery logic",
+      "details": "Create functions to locate MCP servers from config files and verify their /vibeframe endpoints",
+      "rest": true
+    },
+    {
+      "status": "complete",
+      "description": "Build WebView panel creation functionality",
+      "details": "Implement the code to create WebView panels with proper CSP settings"
+    },
+    {
+      "status": "complete",
+      "description": "Configure WebView Content Security Policy",
+      "details": "Set up appropriate CSP to allow the embedded MCP frontend to communicate with its server",
+      "rest": true
+    },
+    {
+      "status": "complete",
+      "description": "Implement selection interface for multiple servers",
+      "details": "Create UI for users to select from multiple discovered MCP servers"
+    },
+    {
+      "status": "complete",
+      "description": "Add error handling and reconnection logic",
+      "details": "Implement robust error handling for server connectivity issues and proper reload capabilities",
+      "rest": true
+    },
+    {
+      "status": "complete",
+      "description": "Add documentation and README",
+      "details": "Create comprehensive documentation on how to use the extension",
+      "rest": true
+    }
+  ]
+} 
