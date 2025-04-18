@@ -1,5 +1,6 @@
 out
 node_modules
 .vscode-test/
-*.vsix
+/*.vsix
+!releases/*.vsix
 .DS_Store 
