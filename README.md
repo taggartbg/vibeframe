@@ -1,8 +1,15 @@
 # Vibeframe - MCP Integration for VS Code
 
-Vibeframe seamlessly integrates MCP (Model Control Protocol) servers into VS Code, allowing you to interact with MCP servers directly within your development environment.
+Create rich visual interfaces for your MCP servers that integrate seamlessly into VS Code, Cursor, and Windsurf.
+
+## Who is this for?
+MCP Server (SSE only) developers that want a frontend directly inside users' VSCode-based IDEs.  Simply include instructions to download the Vibeframe VSCode Extension from the Marketplace or include a link to https://vibeframe.dev where they can download the latest relase (Cursor and Windsurf do not support the Marketplace).
+
+All you need to do is implement a `/vibeframe` endpoint from your server and run `Vibeframe: Open MCP Canvas` and you're all set up!
 
 ## Features
+
+- **SSE/WS Support**: Two-way communication between your server and the Vibeframe canvas
 
 - **Server Discovery**: Automatically finds MCP servers from:
   - Cursor configuration (global and project-specific)
@@ -22,15 +29,17 @@ Vibeframe seamlessly integrates MCP (Model Control Protocol) servers into VS Cod
 
 ## Requirements
 
-- VS Code 1.60.0 or higher
+- VS Code 1.60.0 or higher / Cursor / Windsurf
 - A running MCP server with a `/vibeframe` endpoint
 
 ## Installation
 
-1. Download the VSIX package from the [releases page](https://github.com/your-org/vibeframe/releases)
+1. Download the VSIX package from the [releases page](https://github.com/taggartbg/vibeframe/releases)
 2. Install it in VS Code by:
    - Running `code --install-extension vibeframe-0.1.0.vsix` in your terminal, or
    - In VS Code, select "Extensions" → click "..." → "Install from VSIX..." → select the downloaded file
+3. Install it in Cursor: by:
+   - Drag the .vsix file to the Extensions Pane
 
 ## Usage
 
