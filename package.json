@@ -2,7 +2,7 @@
   "name": "vibeframe",
   "displayName": "Vibeframe",
   "description": "Create rich visual interfaces for your MCP servers that integrate seamlessly into VS Code, Cursor, and Windsurf.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "vibeframe",
   "author": {
     "name": "Taggart Bowen-Gaddy",
