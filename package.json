@@ -45,7 +45,7 @@
     "commands": [
       {
         "command": "vibeframe.openMcpCanvas",
-        "title": "Open MCP Canvas",
+        "title": "Open Vibeframe Panel",
         "category": "Vibeframe"
       }
     ],

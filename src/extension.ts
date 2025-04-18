@@ -15,7 +15,7 @@ export function activate(context: vscode.ExtensionContext) {
 }
 
 async function openMcpCanvas(context: vscode.ExtensionContext): Promise<void> {
-  vscode.window.showInformationMessage('Opening MCP Canvas...');
+  vscode.window.showInformationMessage('Opening Vibeframe...');
   
   try {
     // Get configuration

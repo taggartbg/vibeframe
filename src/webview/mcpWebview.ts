@@ -47,8 +47,8 @@ export class McpWebview {
 
     // Create panel title from the server config
     const panelTitle = serverConfig.name ? 
-      `MCP Canvas: ${serverConfig.name}` : 
-      `MCP Canvas: ${new URL(serverConfig.serverUrl).hostname}`;
+      `Vibeframe: ${serverConfig.name}` : 
+      `Vibeframe: ${new URL(serverConfig.serverUrl).hostname}`;
 
     // Otherwise, create a new panel
     McpWebview.panel = vscode.window.createWebviewPanel(
@@ -368,7 +368,7 @@ export class McpWebview {
 <body>
     <div id="loading" class="loading">
         <div class="spinner"></div>
-        <h2>Connecting to MCP Canvas</h2>
+        <h2>Connecting to Vibeframe</h2>
         <p>Loading from ${serverConfig.serverUrl}</p>
     </div>
     
@@ -395,7 +395,7 @@ export class McpWebview {
         
         function handleFrameError() {
             const loadingDiv = document.getElementById('loading');
-            loadingDiv.innerHTML = '<h2 class="error">Failed to load MCP Canvas</h2>' +
+            loadingDiv.innerHTML = '<h2 class="error">Failed to load Vibeframe</h2>' +
                                  '<p class="error">Could not connect to ${serverConfig.serverUrl}</p>' +
                                  '<p>Please check if the server is running and has a valid /vibeframe endpoint.</p>' +
                                  '<button onclick="reloadPage()">Retry Connection</button>';
